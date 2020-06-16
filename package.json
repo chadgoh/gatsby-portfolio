@@ -1,7 +1,7 @@
 {
-  "name": "Chad - Portfolio",
+  "name": "portfolio",
   "private": true,
-  "description": "Portfolio website",
+  "description": "portfolio website",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {

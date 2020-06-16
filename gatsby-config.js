@@ -7,7 +7,7 @@
 /* Your site config here */
 module.exports = {
   siteMetadata: {
-    title: "Chad",
+    title: "Chad Goh",
     description:
       "My portfolio site built with GatsbyJS with Strapi Headless CMS",
     author: "Chad Goh",
