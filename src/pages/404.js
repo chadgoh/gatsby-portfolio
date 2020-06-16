@@ -25,7 +25,7 @@ const ErrorPage = () => {
     <Layout>
       <ErrorMain>
         <div>
-          <h1>Route doesn't exist!</h1>
+          <h1>Route doesn't exist!!</h1>
           <Link to="/" className="btn">
             Back to home page.
           </Link>
