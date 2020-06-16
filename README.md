@@ -1,15 +1,3 @@
-Colour Palette:
+My portfolio site built with GatsbyJS and styled components.
 
-- #2D3142
-- #4F5D75
-- #BFC0C0
-- #FFFFFF
-- #EF8354
-
-Icons:
-
-- react-icons
-
-CSS in JS:
-
-- styled components
+Still some issues with styling, will get it fixed soon.
