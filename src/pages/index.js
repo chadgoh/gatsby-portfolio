@@ -1,5 +1,5 @@
 import React from "react"
-// import "../css/main.css"
+import "../css/main.css"
 import Layout from "../components/Layout"
 import Hero from "../components/Hero"
 import Experience from "../components/Experience"
