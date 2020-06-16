@@ -1,30 +1,29 @@
 import React from "react"
-// import "../css/main.css"
 import Layout from "../components/Layout"
-import Hero from "../components/Hero"
-import Experience from "../components/Experience"
-import Projects from "../components/Projects"
 import { graphql } from "gatsby"
+import Projects from "../components/Projects"
 import SEO from "../components/SEO"
-
-export default function Home({ data }) {
-  const {
+const projects = ({
+  data: {
     allStrapiProjects: { nodes: projects },
-  } = data
-
+  },
+}) => {
+  console.log(projects)
   return (
     <Layout>
-      <SEO title="Home" description="The Home Page" />
-      <Hero />
-      <Experience />
-      <Projects projects={projects} title="Featured Projects" showLink />
+      <SEO title="Projects" description="A list of all my projects" />
+      <section>
+        <Projects projects={projects} title="All Projects" />
+      </section>
     </Layout>
   )
 }
 
+export default projects
+
 export const query = graphql`
   {
-    allStrapiProjects(filter: { feature: { eq: true } }) {
+    allStrapiProjects {
       nodes {
         github
         id
