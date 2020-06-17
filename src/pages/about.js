@@ -131,11 +131,11 @@ const About = () => {
             </p>
             <p>
               I enjoy coding and learning new technologies. Most of my
-              experience this far has been with ReactJS and .NET Core.
+              experience thus far has been with ReactJS and .NET Core.
             </p>
             <p>
               Currently, I am exploring the JAMStack with GatsbyJS and what it
-              has to offer. Will be starting my first full-time software
+              has to offer. I will be starting my first full-time software
               development job in August this year and am really looking forward
               to that.
             </p>
